@@ -1,0 +1,60 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+
+}
+
+.about .right{
+    max-width: 700px;
+}
+
+.right .img-container{
+    /* display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    text-align: center;
+    justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh; /* Increased height */
+    width: 40%; /* Increased width */
+    margin: auto; /* Center the container horizontally */
+}
+
+.right .img{
+    /* max-width: 90%;
+    border: 1px solid #333;
+    align-items: center; */
+    width: 800px; /* Make the image fill the container width */
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.right .top{
+    grid-column: 1/span 8;
+    grid-row: 1;
+    padding-top: 0%;
+    z-index: 6;
+
+}
+
